@@ -1,0 +1,135 @@
+body{
+    width: 1000px; 
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+/* Created with https://www.css-gradient.com
+background: #A2BFA04D;
+background: -webkit-linear-gradient(top, #A2BFA04D, #08430E80);
+background: -moz-linear-gradient(top, #A2BFA04D, #08430E80);
+background: linear-gradient(to bottom, #A2BFA04D, #08430E80); */
+}
+
+
+.page{
+  padding: 10px;
+}
+#imgPrincipal{
+  max-width: 150px;
+
+}
+button a {
+  text-decoration: none;
+  color: white;
+  text-shadow: #50dc14 1px 0 10px;
+
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    font-family: 'Mulish', sans-serif;
+    margin-right: 20px;
+
+  
+    
+}
+ul{
+  display: flex;
+  margin: 0;
+  list-style: none;
+  gap: 30px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+ 
+}
+li a{
+text-decoration: none;
+color:#50dc14 ;
+font-family: 'Mulish', sans-serif;
+font-size: 20px;
+
+
+}
+li a:hover{
+  font-weight: bold;
+  background: #50dc14;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  
+  }
+h1{
+  line-height: 48px;
+  color: black;
+  font-size: 49px;
+  font-weight: 400;
+  width: 490px;
+}  
+
+span{
+  color:lightseagreen;
+  font-weight: bold;
+}
+p{
+  line-height: 28px;
+  font-weight: 400;
+}
+button{
+  font-family: 'Open Sans', sans-serif;
+  border: 0px;
+  background-color: #c4f8af;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 140px;
+  font-weight: 700;
+  height: 30px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+ 
+  
+}
+
+button:hover{
+  background: #50dc14;
+}
+
+#imgButton{
+  max-width: 20px;
+  
+}
+footer{
+  text-transform: lowercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 120PX;
+}
+footer a{
+  text-decoration: none;
+  font-weight: bold;
+  color:#50dc14;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+
+}
+#imgTreino{
+  max-width: 410px;
+
+  margin-top: 40px;
+  border-radius: 20px;
+}
+main p{
+  margin: 20px 0px;
+}
+
